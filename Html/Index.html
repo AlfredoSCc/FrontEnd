@@ -10,7 +10,86 @@
 </head>
 <body>
 
-    <header></header>
+    <header>
+
+        <section class="header-menu">
+
+          <div class="logo">
+            
+            <a href="Index.html"><img src="../IMG/Logo/Logo-Web.png" alt=""></a>
+
+        </div>
+
+        <div class="Menu-Cat">
+
+          <div class="categoria">
+
+              <p> Menu <br> Categoria</p>
+
+          </div>
+
+          <div class="menu-busqueda">
+            <input type="text" id="nombre_buscar" placeholder="Ingrese Nombre del Producto">
+            <!-- Un único botón para buscar y abrir la modal -->
+            <button onclick="buscar()">Buscar</button>
+            <!-- Ventana modal inicia -->
+            
+            <input type="checkbox" id="btn-modal">
+            <div class="container-modal">
+                <div class="content-modal"> 
+                    <div class="modal-part-1">
+                        <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/507609/Mouse-Gamer-Razer-Viper-Mini-Signature-Edition-30000DPI-49g-8khz_1699624712_g.jpg" alt="">
+                    </div>
+    
+                    <div class="modal-part-2">
+                        <h1 id="modal-nombre">Mouse razer super</h1>
+                        <p id="descripcion-1">Este es un mouse de Calidad<br>100% hecho para el usuario<br>ta piola :D</p>
+                    </div>
+    
+                    <div class="btn-cerrar">
+                        <label for="btn-modal">cerrar</label>
+                    </div>
+                                                
+                </div>
+                <label for="btn-modal" class="cerrar-modal"></label>
+            </div>
+            <!-- Ventana modal termina aquí. -->
+    
+          </div>
+          
+           <!-- Script JavaScript -->
+           <script src="../JS/busqd.js"></script>
+  
+  
+  
+        </div>
+
+      
+        <div class="Menu-Cat2">
+          
+          <div class="nosotros">
+
+              <a href="nosotros.html">Nosotros</a>
+
+          </div>
+
+          <div class="sesion">
+
+              <a href="login.html"> Inicia <br> Sesión</a>
+
+          </div>
+
+          <div class="carrito-compras">
+
+              <a href="carrito.html"><p> Mis <br> Compras</p></a>
+
+          </div>
+        </div>
+
+      </section>
+      
+
+    </header>
     
 
     <div class="slider-frame">
@@ -25,22 +104,20 @@
           <li><img src="../IMG/ImgCarruselPrincipal/Laptops.jpg" alt="" /></li>
 
         </ul>
-
-        <div id="Conte-Flecha">
-
-          <div class="TNovedades">
-
-            <h1 class="t1">Novedades en Technology <h1 class="t2">Group</h1></h1>
-
-          </div>
-          <div class="BotonCarru">
-            <button id="prev-button"><img src="../IMG/ImgCarruselPrincipal/Vector.png" alt=""></button>
-            <button id="next-button"><img src="../IMG/ImgCarruselPrincipal/Vectornext.png" alt=""></button>
-            <script src="../JS/Index.js" ></script>
-          </div>
-        </div>
-
       </div>
-    
+      <div id="Conte-Flecha">
+
+        <div class="TNovedades">
+
+          <h1 class="t1">Novedades en Technology <h1 class="t2"> Group</h1></h1>
+
+        </div>
+        <div class="BotonCarru">
+          <button id="prev-button"><img src="../IMG/ImgCarruselPrincipal/Vector.png" alt=""></button>
+          <button id="next-button"><img src="../IMG/ImgCarruselPrincipal/Vectornext.png" alt=""></button>
+          <script src="../JS/Index.js" ></script>
+        </div>
+      </div>
+
 </body>
 </html>
